@@ -6,7 +6,7 @@ import { useStateValue } from './StateProvider';
 const Subtotal = () => {
   const [data, dispatch] = useStateValue();
 
-  let price = data.busket?.reduce((a, b) => a + b.price, 0);
+  let price = data.basket?.reduce((a, b) => a + b.price, 0);
   
   
     return (
@@ -21,7 +21,7 @@ const Subtotal = () => {
           renderText={(value) => (
             <>
               <p>
-                Subtotal ({data.busket.length} items): <strong>{value}</strong>
+                Subtotal ({data.basket.length} items): <strong>{value}</strong>
               </p>
               <div className="gift">
                 <input type="checkbox" /> This order contains a gift

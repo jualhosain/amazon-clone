@@ -1,15 +1,23 @@
 export const init = {
-    busket : []
+    basket : []
 }
 
 
 
 const reducer = (state, action) => {
     switch (action.type) {
-        case 'Add_To_Busket':
+        case 'Add_To_Basket':
             return {
                 ...state,
-                busket:[...state.busket, action.item]
+                basket:[...state.basket, action.item]
+            }
+        case 'Remove_item':
+            let index = state.basket.findIndex(a => a.id == action.id);
+            let newbasket = [...state.basket];
+            newbasket.splice(index, 1);
+            return {
+                ...state,
+                basket: [...newbasket]
             }
             
         default:

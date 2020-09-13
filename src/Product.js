@@ -20,7 +20,7 @@ function Product({ id, title, price, rating, image }) {
 				src={image} alt="book" />
 			<button onClick={() => {
 				dispatch({
-					type: 'Add_To_Busket',
+					type: 'Add_To_Basket',
 					item: {
 						id,
 						title,

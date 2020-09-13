@@ -40,7 +40,7 @@ const Header = () => {
                     <Link to='/checkout'> 
                 <div className="header_optionBasket">
                     <ShoppingBasketIcon />
-                        <span>{data.busket.length}</span>
+                        <span>{data.basket.length}</span>
                 </div>
                     </Link>
             </div>
