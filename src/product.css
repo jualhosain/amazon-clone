@@ -9,7 +9,7 @@
     margin: 10px;
     padding: 20px;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: flex-start;
 }
 
 .product > img{
@@ -28,8 +28,8 @@
 }
 
 .product__info{
-    height: 100px;
-    margin-bottom: 15px;
+    height: max-content;
+    margin-bottom: auto;
 }
 .product__price{
     margin-top: 5px;

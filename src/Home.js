@@ -3,7 +3,7 @@ import Product from './Product'
 import './home.css'
 const Home = () => {
     return (
-        <div className='home'>
+        <div className='home container'>
             <img
                className='home__banner'
                 src='img/banner.jpg'
