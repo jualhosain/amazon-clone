@@ -4,3 +4,4 @@ Go to [https://clone-79d4f.web.app/](https://clone-79d4f.web.app/) to view it in
 
 - learn it from [clever programmer](https://www.youtube.com/c/CleverProgrammer/)
 [universaloffer](https://universaloffer.org){:target="_blank"}
+<a href="http://example.com" target="_blank"></a>
